@@ -1,21 +1,21 @@
-# ProjetoHubBDD
+# Projeto Advantage Online Shopping
 Projeto de automação em BDD
 
 Src/main/java
 
-- br.com.rsinet.hub.projetobdd.cucumber
+- com.keeggo.qavengers.advantage.cucumber
 
 	ScenarioContex: Utilizado para controlar “x” valor entre classes.
 
 	TestContext:  Utilizado para controlar as instâncias de objetos criados.
 
-- br.com.rsinet.hub.projetobdd.dataProvider
+- com.keeggo.qavengers.advantage.dataProvider
 
 	ConfigFileReader: Utilizado para realizar a leitura do documento Configuration.properties.
 
 	JsonDataReader: Utilizado para realizar a leitura da classe Customer.
 
-- br.com.rsinet.hub.projetobdd.enums
+- com.keeggo.qavengers.advantage.enums
 
 	Context: Utilizado para controlar os valores codificados no projeto.
 
@@ -23,7 +23,7 @@ Src/main/java
 
 	EnvironmentType: Utilizado para controlar os valores do tipo de ambiente codificado no projeto.
 
-- br.com.rsinet.hub.projetobdd.managers
+- com.keeggo.qavengers.advantage.managers
 
 	FileReadeManager: Classe que é responsável por gerenciar as instâncias do leitor de configurações (ConfigFileReader)
 
@@ -31,27 +31,27 @@ Src/main/java
 
 	WebDriverManager: Classe que é responsável por gerenciar as instâncias de objetos WebDriver.
 
-- br.com.rsinet.hub.projetobdd.pof
+- com.keeggo.qavengers.advantage.pof
 
 	HomePage: Classe com a responsabilidade de armazenar os elementos e ações da página inicial/principal da aplicação.
 
 	RegisterPage: Classe com a responsabilidade de armazenar os elementos e ações da página de Registro de usuário da aplicação.
 
-- br.com.rsinet.hub.projetobdd.selenium
+- com.keeggo.qavengers.advantage.selenium
 
 	Wait: Utilizada para gerenciar as instancias de métodos “wait” (espera) dentro do código do projeto.
 
-- br.com.rsinet.hub.projetobdd.testDataTypes
+- com.keeggo.qavengers.advantage.testDataTypes
 
 	Customer: Classe utilizada para mapear parâmetros para inserção de dados (obs: não inserida com sucesso)
 
 Src/test/java
 
-- br.com.rsinet.hub.projetobdd.runners
+- com.keeggo.qavengers.advantage.runners
 
 	TestRunner: Classe Responsável por gerenciar qual teste será executado.
 
-- br.com.rsinet.hub.projetobdd.stepdefinitions
+- com.keeggo.qavengers.advantage.stepdefinitions
 
 	HomePageSteps: Classe responsável por implementar os cenários de testes relacionados a página “Inicial/Principal” para execução da aplicação.
 
